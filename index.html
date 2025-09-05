@@ -3,317 +3,410 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Glass - Neural Interface Design</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="templatemo-neural-style.css" rel="stylesheet">
-<!--
-
-TemplateMo 597 Neural Glass
-
-https://templatemo.com/tm-597-neural-glass
-
--->
-    <style>
-       
-    </style>
+    <title>CyberGuard - Security Analysis Platform</title>
+    <meta name="description" content="Advanced security analysis platform for mobile numbers, email addresses, and URLs. Detect malware, phishing threats, and security vulnerabilities.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@0.263.1/dist/umd/lucide.js">
 </head>
 <body>
-    <!-- Epic Neural Background -->
-    <div class="neural-background"></div>
-    
-    <!-- Floating Geometric Shapes -->
-    <div class="geometric-shapes">
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-
-    <!-- Neural Network Lines -->
-    <div class="neural-lines">
-        <div class="neural-line"></div>
-        <div class="neural-line"></div>
-        <div class="neural-line"></div>
-    </div>
-
     <!-- Header -->
-    <header class="glass">
-        <nav>
-            <a href="#home" class="logo">
-                <svg class="logo-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#e0a3ff"/>
-                            <stop offset="50%" style="stop-color:#ff69b4"/>
-                            <stop offset="100%" style="stop-color:#9370db"/>
-                        </linearGradient>
-                    </defs>
-                    <circle cx="50" cy="30" r="8" fill="url(#logoGradient)" opacity="0.8">
-                        <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="30" cy="60" r="6" fill="url(#logoGradient)" opacity="0.6">
-                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="70" cy="65" r="7" fill="url(#logoGradient)" opacity="0.7">
-                        <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
-                    </circle>
-                    <line x1="50" y1="30" x2="30" y2="60" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
-                        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-                    </line>
-                    <line x1="50" y1="30" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
-                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
-                    </line>
-                    <line x1="30" y1="60" x2="70" y2="65" stroke="url(#logoGradient)" stroke-width="2" opacity="0.6">
-                        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
-                    </line>
-                </svg>
-                NEURALGLASS
-            </a>
-            <ul class="nav-links">
-                <li><a href="#features">Neural</a></li>
-                <li><a href="#showcase">Matrix</a></li>
-                <li><a href="#timeline">Evolution</a></li>
-                <li><a href="#contact">Connect</a></li>
-                <li><a href="https://example.com" target="_blank" class="external-link">External</a></li>
-</ul>
-            </ul>
-            <div class="mobile-menu-toggle">
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <svg class="shield-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 13c0 5-3.5 7.5-7.5 7.5S5 18 5 13V6l7.5-3L20 6v7Z"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>CyberGuard</h1>
+                        <p>Security Analysis Platform</p>
+                    </div>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link active">Dashboard</a>
+                    <a href="#" class="nav-link">Reports</a>
+                    <a href="#" class="nav-link">Settings</a>
+                    <div class="user-info">
+                        <div class="avatar">JD</div>
+                        <span>John Doe</span>
+                    </div>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                </button>
             </div>
-        </nav>
-        <div class="mobile-nav">
-            <a href="#features">Neural</a>
-            <a href="#showcase">Matrix</a>
-            <a href="#timeline">Evolution</a>
-            <a href="#contact">Connect</a>
-            <a href="https://example.com" target="_blank" class="external-link">External</a>
         </div>
     </header>
 
-    <!-- Section 1: Hero -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="hero-subtitle">Welcome </div>
-            <div class="hero-subtitle">To ganesh website </div>
-            <h1>NEURAL INTERFACE</h1>
-            
-            <div class="hero-description">
-                <p>Website still in progress.</p>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <div class="welcome-section">
+                <h2>Security Analysis Center</h2>
+                <p>Analyze mobile numbers, email addresses, and URLs for potential security threats</p>
             </div>
 
-            <div class="hero-stats">
-                <div class="hero-stat">
-                    <span class="hero-stat-label">Mobile number Checking</span>
+            <!-- Analysis Tabs -->
+            <div class="analysis-tabs">
+                <div class="tab-list">
+                    <button class="tab-button active" data-tab="phone" data-testid="tab-phone">
+                        <svg class="tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Phone Analysis
+                    </button>
+                    <button class="tab-button" data-tab="email" data-testid="tab-email">
+                        <svg class="tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Email Analysis
+                    </button>
+                    <button class="tab-button" data-tab="url" data-testid="tab-url">
+                        <svg class="tab-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72"/>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72"/>
+                        </svg>
+                        URL Analysis
+                    </button>
                 </div>
-                <div class="hero-stat">
-                    <span class="hero-stat-label">Link Scanner</span>
-                </div>
-                <div class="hero-stat">
-                    <span class="hero-stat-label">Malware Scanner</span>
-                </div>
-                <div class="hero-stat">
-                    <span class="hero-stat-label">SQL Scanner</span>
-                </div>
-            </div>
-            
-            <div class="cta-buttons">
-                <a href="#features" class="cta-button">Initialize Neural Link</a>
-                <a href="#showcase" class="cta-button secondary">Explore Matrix</a>
-            </div>
-        </div>
-    </section>
 
-    <!-- Section 2: Diagonal Features -->
-    <section class="features" id="features">
-        <div class="features-container">
-            <h2 class="section-title">QUANTUM CAPABILITIES</h2>
-            <div class="diagonal-grid">
-                <div class="feature-row">
-                    <div class="feature-content glass">
-                        <div class="feature-icon">🧠</div>
-                        <h3>Neural Processing</h3>
-                        <p>Advanced AI-driven interfaces that adapt to your consciousness patterns, creating personalized digital experiences that evolve with your neural pathways.</p>
+                <!-- Analysis Content -->
+                <div class="analysis-content">
+                    <!-- Input Form -->
+                    <div class="analysis-card">
+                        <div class="card-content">
+                            <!-- Phone Analysis Form -->
+                            <div id="phone-content" class="tab-content active">
+                                <h3 class="form-title">
+                                    <svg class="form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                    </svg>
+                                    Phone Number Analysis
+                                </h3>
+                                <form class="analysis-form" id="phone-form">
+                                    <div class="form-group">
+                                        <label for="phone-input">Phone Number</label>
+                                        <div class="input-wrapper">
+                                            <input type="text" id="phone-input" placeholder="+1 (555) 123-4567" data-testid="input-phone">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="country-select">Country Code</label>
+                                            <select id="country-select" data-testid="select-country">
+                                                <option value="US (+1)">US (+1)</option>
+                                                <option value="UK (+44)">UK (+44)</option>
+                                                <option value="CA (+1)">CA (+1)</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="analysis-type-select">Analysis Type</label>
+                                            <select id="analysis-type-select" data-testid="select-analysis-type">
+                                                <option value="comprehensive">Comprehensive</option>
+                                                <option value="quick">Quick Scan</option>
+                                                <option value="deep">Deep Analysis</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="analyze-btn" data-testid="button-analyze">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="11" cy="11" r="8"/>
+                                            <path d="M21 21l-4.35-4.35"/>
+                                        </svg>
+                                        Analyze Phone Number
+                                    </button>
+                                </form>
+                            </div>
+
+                            <!-- Email Analysis Form -->
+                            <div id="email-content" class="tab-content">
+                                <h3 class="form-title">
+                                    <svg class="form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                    Email Address Analysis
+                                </h3>
+                                <form class="analysis-form" id="email-form">
+                                    <div class="form-group">
+                                        <label for="email-input">Email Address</label>
+                                        <div class="input-wrapper">
+                                            <input type="email" id="email-input" placeholder="example@domain.com" data-testid="input-email">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="checkbox-group">
+                                            <input type="checkbox" id="domain-reputation" data-testid="checkbox-domain-reputation">
+                                            <label for="domain-reputation">Check domain reputation</label>
+                                        </div>
+                                        <div class="checkbox-group">
+                                            <input type="checkbox" id="breach-scan" data-testid="checkbox-breach-scan">
+                                            <label for="breach-scan">Scan for breaches</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="analyze-btn" data-testid="button-analyze">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="11" cy="11" r="8"/>
+                                            <path d="M21 21l-4.35-4.35"/>
+                                        </svg>
+                                        Analyze Email Address
+                                    </button>
+                                </form>
+                            </div>
+
+                            <!-- URL Analysis Form -->
+                            <div id="url-content" class="tab-content">
+                                <h3 class="form-title">
+                                    <svg class="form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72"/>
+                                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72"/>
+                                    </svg>
+                                    URL Security Analysis
+                                </h3>
+                                <form class="analysis-form" id="url-form">
+                                    <div class="form-group">
+                                        <label for="url-input">URL</label>
+                                        <div class="input-wrapper">
+                                            <input type="url" id="url-input" placeholder="https://example.com" data-testid="input-url">
+                                        </div>
+                                    </div>
+                                    <div class="checkbox-options">
+                                        <div class="checkbox-group">
+                                            <input type="checkbox" id="malware-scan" checked data-testid="checkbox-malware-scan">
+                                            <label for="malware-scan">Malware scan</label>
+                                        </div>
+                                        <div class="checkbox-group">
+                                            <input type="checkbox" id="phishing-detection" checked data-testid="checkbox-phishing-detection">
+                                            <label for="phishing-detection">Phishing detection</label>
+                                        </div>
+                                        <div class="checkbox-group">
+                                            <input type="checkbox" id="ssl-check" data-testid="checkbox-ssl-check">
+                                            <label for="ssl-check">SSL certificate check</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="analyze-btn" data-testid="button-analyze">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="11" cy="11" r="8"/>
+                                            <path d="M21 21l-4.35-4.35"/>
+                                        </svg>
+                                        Analyze URL
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-visual glass"></div>
-                </div>
-                
-                <div class="feature-row">
-                    <div class="feature-content glass">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Quantum Speed</h3>
-                        <p>Instantaneous data processing through quantum tunneling algorithms, delivering response times that exist outside conventional spacetime constraints.</p>
+
+                    <!-- Results Panel -->
+                    <div class="analysis-card">
+                        <div class="card-content">
+                            <div id="results-container">
+                                <!-- Default State -->
+                                <div id="default-state" class="default-state">
+                                    <div class="default-icon">
+                                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M20 13c0 5-3.5 7.5-7.5 7.5S5 18 5 13V6l7.5-3L20 6v7Z"/>
+                                        </svg>
+                                    </div>
+                                    <h3>Ready for Analysis</h3>
+                                    <p>Select an analysis type and enter your data to begin security scanning</p>
+                                </div>
+
+                                <!-- Loading State -->
+                                <div id="loading-state" class="loading-state hidden">
+                                    <div class="loading-header">
+                                        <h3>Analyzing...</h3>
+                                        <div class="status-indicator">
+                                            <div class="pulse-dot"></div>
+                                            <span>Processing</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress-section">
+                                        <div class="progress-label">
+                                            <span>Analysis Progress</span>
+                                            <span class="progress-text">Running...</span>
+                                        </div>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                    <div class="loading-skeleton">
+                                        <div class="skeleton-item"></div>
+                                        <div class="skeleton-item"></div>
+                                        <div class="skeleton-item"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Results State -->
+                                <div id="results-state" class="results-state hidden">
+                                    <div class="results-header">
+                                        <h3>Analysis Results</h3>
+                                        <div class="status-indicator">
+                                            <div class="success-dot"></div>
+                                            <span>Complete</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="threat-level-section">
+                                        <div class="threat-level-header">
+                                            <span>Threat Level</span>
+                                            <div id="threat-badge" class="threat-badge" data-testid="threat-level"></div>
+                                        </div>
+                                        <div class="threat-progress">
+                                            <div id="threat-progress-bar" class="threat-progress-bar"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="results-cards">
+                                        <div class="result-card">
+                                            <div class="result-card-header">
+                                                <span>Security Score</span>
+                                                <span id="security-score" class="security-score" data-testid="security-score"></span>
+                                            </div>
+                                            <div id="security-description" class="result-description"></div>
+                                        </div>
+
+                                        <div class="result-card">
+                                            <div class="result-card-header">
+                                                <span>Scan Results</span>
+                                                <div id="scan-status" class="scan-badge" data-testid="scan-status"></div>
+                                            </div>
+                                            <div id="scan-details" class="scan-details"></div>
+                                        </div>
+
+                                        <div class="result-card">
+                                            <div class="result-card-header">
+                                                <span>Recommendations</span>
+                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                    <path d="M9 12l2 2 4-4"/>
+                                                    <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c2.04 0 3.92.68 5.43 1.83"/>
+                                                </svg>
+                                            </div>
+                                            <ul id="recommendations-list" class="recommendations-list"></ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="action-buttons">
+                                        <button class="action-btn secondary" data-testid="button-export">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                                <polyline points="7,10 12,15 17,10"/>
+                                                <line x1="12" x2="12" y1="15" y2="3"/>
+                                            </svg>
+                                            Export Report
+                                        </button>
+                                        <button class="action-btn outline" data-testid="button-alert">
+                                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/>
+                                                <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
+                                            </svg>
+                                            Set Alert
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-visual glass"></div>
                 </div>
-                
-                <div class="feature-row">
-                    <div class="feature-content glass">
-                        <div class="feature-icon">🌐</div>
-                        <h3>Dimensional Sync</h3>
-                        <p>Seamless synchronization across multiple reality layers, ensuring your digital presence remains consistent throughout parallel dimensions.</p>
+            </div>
+
+            <!-- Analysis History -->
+            <div class="history-section">
+                <div class="analysis-card">
+                    <div class="card-header">
+                        <h3>Recent Analysis History</h3>
                     </div>
-                    <div class="feature-visual glass"></div>
+                    <div class="card-content">
+                        <div id="history-container">
+                            <div id="history-empty" class="empty-history">
+                                <p>No analysis history found. Start your first security analysis above.</p>
+                            </div>
+                            <div id="history-table" class="history-table hidden">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Target</th>
+                                            <th>Type</th>
+                                            <th>Threat Level</th>
+                                            <th>Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="history-tbody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Section 3: Hexagonal Showcase -->
-    <section class="showcase" id="showcase">
-        <h2 class="section-title">MATRIX PROTOCOLS</h2>
-        <div class="hexagon-container">
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">🔮</div>
-                    <h4>Holographic UI</h4>
-                    <p>3D interfaces projected into reality space</p>
-                </div>
-            </div>
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">🛡️</div>
-                    <h4>Quantum Security</h4>
-                    <p>Unbreakable encryption protocols</p>
-                </div>
-            </div>
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">🚀</div>
-                    <h4>Warp Navigation</h4>
-                    <p>Instant travel between data nodes</p>
-                </div>
-            </div>
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">💎</div>
-                    <h4>Crystal Storage</h4>
-                    <p>Infinite capacity data crystals</p>
-                </div>
-            </div>
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">🎯</div>
-                    <h4>Neural Targeting</h4>
-                    <p>Thought-based interaction systems</p>
-                </div>
-            </div>
-            <div class="hexagon">
-                <div class="hexagon-inner glass">
-                    <div class="hexagon-icon">⭐</div>
-                    <h4>Stellar Network</h4>
-                    <p>Galactic-scale connectivity matrix</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 4: Timeline -->
-    <section class="timeline" id="timeline">
-        <h2 class="section-title">EVOLUTION TIMELINE</h2>
-        <div class="timeline-container">
-            <div class="timeline-line"></div>
-            
-            <div class="timeline-item">
-                <div class="timeline-content glass">
-                    <div class="timeline-year">2024</div>
-                    <h4>Genesis Protocol</h4>
-                    <p>NeuralGlass is a cutting-edge cyberpunk glassmorphism HTML template featuring a striking purple, pink, and green color palette with futuristic neural network aesthetics.</p>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-content glass">
-                    <div class="timeline-year">2025</div>
-                    <h4>Matrix Integration</h4>
-                    <p>Built with pure HTML/CSS and vanilla JavaScript, it offers smooth scrolling, mobile-responsive navigation with hamburger menu, parallax effects, and dynamic visual elements that respond to user interaction.</p>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-content glass">
-                    <div class="timeline-year">2026</div>
-                    <h4>Quantum Leap</h4>
-                    <p>This HTML CSS template is brought to you by TemplateMo website. Perfect for tech startups, AI companies, gaming platforms, or any project requiring a bold, futuristic web presence.</p>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-            
-            <div class="timeline-item">
-                <div class="timeline-content glass">
-                    <div class="timeline-year">2027</div>
-                    <h4>Neural Singularity</h4>
-                    <p>Human consciousness successfully merges with AI systems, creating hybrid intelligences that transcend biological limitations.</p>
-                </div>
-                <div class="timeline-dot"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section 5: Contact -->
-    <section class="contact" id="contact">
-        <div class="contact-container">
-            <div class="contact-info glass">
-                <h3>ESTABLISH CONNECTION</h3>
-                <p>Ready to interface with the future? Our neural network specialists are standing by to guide you through the quantum realm of possibilities.</p>
-                <p>Connect through the dimensional gateway and let us initialize your journey into the digital consciousness matrix.</p>
-                
-                <div class="social-links">
-                    <a href="#" class="glass">📡</a>
-                    <a href="#" class="glass">🌐</a>
-                    <a href="#" class="glass">💬</a>
-                    <a href="#" class="glass">📨</a>
-                </div>
-            </div>
-            
-            <div class="contact-form glass">
-                <div class="form-group">
-                    <input type="text" placeholder="Neural ID (Name)" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Quantum Channel (Email)" required>
-                </div>
-                <div class="form-group">
-                    <input type="text" placeholder="Mission Objective (Subject)" required>
-                </div>
-                <div class="form-group">
-                    <textarea rows="5" placeholder="Transmission Data (Message)" required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">TRANSMIT TO MATRIX</button>
-            </div>
-        </div>
-    </section>
+    </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#features">Neural Networks</a>
-                <a href="#showcase">Matrix Protocols</a>
-                <a href="#timeline">Evolution</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Documentation</a>
-                <!-- Add external links -->
-    			<a href="https://github.com/yourproject" target="_blank" rel="noopener">GitHub</a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 13c0 5-3.5 7.5-7.5 7.5S5 18 5 13V6l7.5-3L20 6v7Z"/>
+                            </svg>
+                        </div>
+                        <span>CyberGuard</span>
+                    </div>
+                    <p>Advanced security analysis platform protecting your digital assets.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Phone Analysis</li>
+                        <li>Email Security</li>
+                        <li>URL Scanning</li>
+                        <li>Threat Detection</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>Documentation</li>
+                        <li>API Reference</li>
+                        <li>Contact Support</li>
+                        <li>Status Page</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Security</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Security Reports</li>
+                        <li>Compliance</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-copyright">
-                <p>&copy; 2025 NeuralGlass Interface. All quantum rights reserved across dimensions.</p>
-            </div>
-            <div class="footer-design">
-                Design: <a href="https://templatemo.com" target="_blank" rel="nofollow noopener">TemplateMo</a> | 
-                Enhanced by Neural AI Systems | 
-                <a href="#">Quantum Framework</a>
+            <div class="footer-bottom">
+                <p>© 2024 CyberGuard Security Platform. All rights reserved.</p>
             </div>
         </div>
     </footer>
-<script src="templatemo-neural-scripts.js"></script>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <span id="toast-message"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
